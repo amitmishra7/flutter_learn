@@ -2,6 +2,19 @@
 
 <img src="https://swansoftwaresolutions.com/wp-content/uploads/2020/02/08.20.20-What-is-Dart-and-how-is-it-used-1024x576.jpg" height=400/>
 
+### Table of Contents
+**[What is Dart?](#what-is-dart)**<br>
+**[Dart: Uses](#dart-uses)**<br>
+**[Dart: Objectives](#dart-objectives)**<br>
+**[Dart: Why?](#dart-why)**<br>
+**[Dart: The language](#dart-the-language)**<br>
+**[Dart: The libraries](#dart-the-libraries)**<br>
+**[Dart: The platforms](#dart-the-platform)**<br>
+    **[Dart Native (machine code JIT and AOT)](#dart-native)**<br>
+    **[Dart Web (JavaScript dev & prod)](#dart-web)**<br>
+    **[Dart runtime](#dart-runtime)**<br>
+**[Dartpad](#dartpad)**<br>
+
 ## What is Dart?
 
 Dart is a client-optimized language for developing fast apps on any platform. Its goal is to offer the most productive programming language for multi-platform development, paired with a flexible execution runtime platform for app frameworks.
@@ -78,7 +91,7 @@ Dart web contains two compiliation modes:
 An incremental development compiler enabling a fast developer cycle
 An optimizing production compiler which compiles Dart code to fast, compact, deployable JavaScript. These effeciencies come from techniques such as dead-code elimination.
 
-### The Dart runtime
+### Dart runtime
 
 Regardless of which platform you use or how you compile your code, executing the code requires a Dart runtime. This runtime is responsible for the following critical tasks:
 
@@ -94,6 +107,7 @@ On native platforms, the Dart runtime is automatically included inside self-cont
 ## Dartpad
 
 DartPad is an open source tool that lets you play with the Dart language in any modern browser. Many pages in this site—especially codelabs—have embedded DartPads. To open DartPad as a standalone web page, visit the DartPad site [(dartpad.dev)](https://dartpad.dev/)
+
 
 
 
