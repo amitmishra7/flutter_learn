@@ -116,7 +116,7 @@ int fibonacci(int n)
 The Lambda Function can only have one expression but can take any number of arguments
 
 ```
-void add(int a, int b) => a +b;
+void add(int a, int b) => a + b;
 ```
 
 
