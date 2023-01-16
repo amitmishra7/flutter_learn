@@ -5,6 +5,8 @@
 ## Table of Contents
 
 **[Overview](#overview)**<br>
+**[String](#overview)**<br>
+
 
 ## Overview
 
@@ -13,3 +15,12 @@ Dart is a client-optimized language for developing fast apps on any platform. It
 The Dart programming language was first launched back in 2011 at a conference in Denmark. At that time, the Dart language was relatively small compared to other languages such as C#, JavaScript, or Python. But this changed with the release of Flutter.
 
 [Read more here.](https://github.com/amitmishra7/flutter_learn/tree/main/overview)
+
+## String
+
+The String data type represents a sequence of characters. A Dart string is a sequence of UTF 16 code units.
+
+String values in Dart can be represented using either single or double or triple quotes. Single line strings are represented using single or double quotes. Triple quotes are used to represent multi-line strings.
+
+
+[Read more here.](https://github.com/amitmishra7/flutter_learn/tree/main/string)
