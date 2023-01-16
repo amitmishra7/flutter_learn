@@ -42,13 +42,13 @@ void add(int a, int b){
 }
 ```
 
+### Functions with different parameter types
+
 |Sr.No.| Parameter | Description | 
 |------|-----------|-------------|
 |   1. | Optional Positional Parameter |To specify it use square (‘[ ]’) brackets|
 |2.| Optional Named parameter | To specify it use curly(‘{ }’) brackets. Paramter name should be written while passing its values|
 |3.|Optional parameter with default values | Here parameters are assign with default values. |     |
-
-#### Syntax Examples:
 
 **Optional Positional Parameter**
 
@@ -94,6 +94,7 @@ void main()
     gfg2(01, g3 : 12);
  
     // Calling function with default valued parameter
+
     gfg3(01);
 }
 ```
