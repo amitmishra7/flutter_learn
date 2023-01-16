@@ -53,34 +53,27 @@ void add(int a, int b){
 **Optional Positional Parameter**
 
 ```
-void gfg1(int g1, [ var g2 ])
+void add(int x, [ int y ])
 {
-    // Creating function 1
-    print("g1 is $g1");
-    print("g2 is $g2");
+    final sum = x + y ?? 0;
 }
 ```
 
 **Optional Named Parameter**
 
 ```
-void gfg2(int g1, { var g2, var g3 })
+void add(int x, { int y, int z })
 {
-    // Creating function 1
-    print("g1 is $g1");
-    print("g2 is $g2");
-    print("g3 is $g3");
+    final sum = x + y ?? 0 + z ?? 0;
 }
 ```
 
 **Optional parameter with default values**
 
 ```
-void gfg3(int g1, { int g2 : 12 })
+void add(int x, { int y : 12 })
 {
-    // Creating function 1
-    print("g1 is $g1");
-    print("g2 is $g2");
+    final sum = x + y;
 }
 ```
 
@@ -88,14 +81,13 @@ void gfg3(int g1, { int g2 : 12 })
 void main()
 {
     // Calling the function with optional parameter
-    gfg1(01);
+    add(01);
  
     // Calling the function with Optional Named parameter
-    gfg2(01, g3 : 12);
+    add(01, g3 : 12);
  
     // Calling function with default valued parameter
-
-    gfg3(01);
+    add(01);
 }
 ```
 
@@ -105,11 +97,15 @@ The recursive function is those functions in which function calls itself.
 
 ```
 /// Computes the nth Fibonacci number.
-int fibonacci(int n)
-{
-    // This is recursive function as it calls itself
-    return n < 2 ? n : (fibonacci(n - 1) + fibonacci(n - 2));
-}
+int factorial(int num){  
+     
+    if(num<=1) { // base case  
+        return 1;  
+    else{  
+        return n*factorial(n-1);  
+    }  
+         
+}  
 ```
 
 ### Lambda Function in Dart
