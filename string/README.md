@@ -1,12 +1,15 @@
 ## What is Strings in Dart??
-
+<br /> 
 The String data type represents a sequence of characters. A Dart string is a sequence of UTF 16 code units.
 String values in Dart can be represented using either single or double or triple quotes. Single line strings are represented using single or double quotes. Triple quotes are used to represent multi-line strings.
 
 ---
+<br /> 
 
 ## The syntax of representing string values in Dart.
+<br /> 
 
+```
 void main() { 
 
    String str1 = 'this is a single line string';  
@@ -25,18 +28,27 @@ void main() {
 this is a single line string   
 this is a single line string   
 this is a multiline line string   
-this is a multiline line string   
+this is a multiline line string  
+
+```
 
 
 ---
+<br /> 
+<br /> 
 
 ## What are Strings Interpolation??
+<br /> 
 
-String Interpolation,it is the process of adding a string to another string.  
+String Interpolation is the process of adding a string to another string.  
 The operator plus (+) is a commonly used mechanism to concatenate / interpolate strings.
-
+<br /> 
+<br /> 
 
 ## Example of String Interpolation
+<br /> 
+
+```
 
 void main() { 
 
@@ -51,12 +63,14 @@ void main() {
 ### Output:
 The concatenated string : Helloworld
 
-
---- 
-
-
-
-### String Properties-
+```
+---   
+<br /> 
+<br /> 
+<br /> 
+### String Properties- 
+<br /> 
+<br /> 
 
 |Sr.No	| Property & Description
 |--     |---
@@ -66,12 +80,12 @@ The concatenated string : Helloworld
 
 
 ---
-
-
-
-
+<br /> 
+<br /> 
+<br /> 
 
 ### Methods to Manipulate Strings-
+<br /> 
 
 |Sr.No	| Methods & Description
 |--     |--
