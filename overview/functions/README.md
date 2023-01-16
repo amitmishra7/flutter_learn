@@ -50,7 +50,7 @@ void add(int a, int b){
 
 #### Syntax Examples:
 
-*Optional Positional Parameter
+**Optional Positional Parameter**
 
 ```
 void gfg1(int g1, [ var g2 ])
@@ -61,7 +61,7 @@ void gfg1(int g1, [ var g2 ])
 }
 ```
 
-*Optional Named Parameter
+**Optional Named Parameter**
 
 ```
 void gfg2(int g1, { var g2, var g3 })
@@ -73,7 +73,7 @@ void gfg2(int g1, { var g2, var g3 })
 }
 ```
 
-*Optional parameter with default values
+**Optional parameter with default values**
 
 ```
 void gfg3(int g1, { int g2 : 12 })
@@ -84,7 +84,21 @@ void gfg3(int g1, { int g2 : 12 })
 }
 ```
 
-### Recurrsive Functions in Dart
+```
+void main()
+{
+    // Calling the function with optional parameter
+    gfg1(01);
+ 
+    // Calling the function with Optional Named parameter
+    gfg2(01, g3 : 12);
+ 
+    // Calling function with default valued parameter
+    gfg3(01);
+}
+```
+
+### Recursive Functions in Dart
 
 The recursive function is those functions in which function calls itself.
 
