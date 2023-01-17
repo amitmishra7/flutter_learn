@@ -5,6 +5,7 @@
 ## Table of Contents
 
 **[Overview](#overview)**<br>
+**[Functions](#functions)**<br>
 
 ## Overview
 
@@ -13,3 +14,9 @@ Dart is a client-optimized language for developing fast apps on any platform. It
 The Dart programming language was first launched back in 2011 at a conference in Denmark. At that time, the Dart language was relatively small compared to other languages such as C#, JavaScript, or Python. But this changed with the release of Flutter.
 
 [Read more here.](https://github.com/amitmishra7/flutter_learn/tree/main/overview)
+
+## Functions
+
+Dart function is a set of codes that together perform a specific task. It is used to break the large code into smaller modules and reuse it when needed. Functions make the program more readable and easy to debug. It improves the modular approach and enhances the code reusability.
+
+[Read more here.](https://github.com/amitmishra7/flutter_learn/tree/main/functions)
