@@ -5,6 +5,7 @@
 ## Table of Contents
 
 **[Overview](#overview)**<br>
+**[Classes and Mixins](#classes-and-mixins)**<br>
 
 ## Overview
 
@@ -13,3 +14,11 @@ Dart is a client-optimized language for developing fast apps on any platform. It
 The Dart programming language was first launched back in 2011 at a conference in Denmark. At that time, the Dart language was relatively small compared to other languages such as C#, JavaScript, or Python. But this changed with the release of Flutter.
 
 [Read more here.](https://github.com/amitmishra7/flutter_learn/tree/main/overview)
+
+## Classes and Mixins
+
+A class in terms of OOP is a blueprint for creating objects. A class encapsulates data for the object. Dart gives built-in support for this concept called class.
+
+A mixin is a class with methods and properties utilized by other classes in Dart.
+
+[Read more here.](https://github.com/amitmishra7/flutter_learn/tree/main/classes_mixins)
